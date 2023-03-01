@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Source+Sans+Pro:wght@400;900&display=swap');
+
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+}
+
+body {
+    font-family      :  'Source Sans Pro';
+    background-color : black;
+    width            : 1920px;
+    margin           : auto
+}
+
+li {
+    list-style-type : none; 
+}
+
+.page-container {
+    width  : 68%;
+    margin : auto;
+}
+
+.navbar {
+    margin-top : 17px;
+}
+
+.navbar__list {
+    display         : flex;
+    justify-content : space-between;
+}
+
+.navbar__button {
+    width          : 175px;
+    height         : 42px;
+    border-radius  : 131px;
+    background     : black;
+    color          : #FFFFFF;
+    border         : 1px solid #8276FF;
+    text-transform : uppercase;
+}
+
+.section__sale {
+    margin-top      : 137px;
+    display         : flex;
+    justify-content : space-between;
+    color           : white;
+}
+
+.section__sale__img img {
+    margin-top : -70px;
+}
+
+.text-container{
+    width          : 787px;
+    height         : 138px;
+    margin-bottom  : 20px;  
+    letter-spacing : 0.007em;  
+}
+
+.text-white {
+    font-weight : 600;
+    font-size   : 49px;
+    line-height : 69px;
+    color       : #FFFFFF;
+}
+
+.text-yellow {
+    font-family    : 'Russo One';
+    font-style     : italic;
+    font-weight    : 700;
+    font-size      : 49px;
+    line-height    : 69px;
+    color          : rgba(255, 199, 89, 1);
+    text-transform : uppercase;
+}
+
+.text-money {
+    width          : 247px;
+    height         : 49px;
+    font-size      : 16px;
+    letter-spacing : 0.007em;
+    line-height    : 24px;
+    margin-bottom  : 41px;
+}
+
+.btn-container {
+    margin-bottom : 64px;
+}
+
+.btn {  
+    padding          : 15px 40px;
+    background-color : #8276FF;
+    border           : none;
+    border-radius    : 31px;
+    font-weight      : 700;
+    font-size        : 17px;
+    line-height      : 25px;
+    letter-spacing   : 0.02em;
+    text-transform   : uppercase;
+    color            : #FFFFFF;
+}
+
+.btn-save {
+    margin-bottom : 20px;
+}
+
+.free-trial {
+    height      : 19px;
+    display     : flex;
+    align-items : center;
+}
+
+.text-trial {
+    font-size      : 15px;
+    letter-spacing : 0.005em;
+    margin-left    : 17px;
+}
+
+.vertical-line {
+    color       : rgba(255, 255, 255, 0.3);
+    font-size   : 16px;
+    font-weight : 700;
+}
+
+.reviews-container {
+    display     : flex;
+    align-items : center;
+}
+
+.reviews {
+    margin-left    : 10px;
+    line-height    : 20px;
+    letter-spacing : 0.005em;
+}
+
+.reviews__list {
+    align-items : center;
+    margin-top  : 20px;
+    display     : flex;
+}
+
+.reviews__list__item {
+    margin-right : 27px;
+}
+
+.section__benefit {
+ margin-top : 210px;
+}
+
+.benefit {
+    text-align     : center;
+    font-size      : 39px;
+    letter-spacing : 0,007em;
+    line-height    : 52px;
+    color          : #FFFFFF;
+}
+
+.text-monthly {
+    font-style : italic;
+}
+
+.boxes{
+ margin-top : 113px;
+ color      : #FFFFFF;
+}
+
+.box {
+    position        : relative;
+    display         : inline-block;
+    width           : 537px;
+    height          : 586px;
+    background      : rgba(255, 255, 255, 0.1);    
+    border          : 1px solid rgba(141, 159, 244, 0.3);
+    border-radius   : 10px;
+    backdrop-filter : blur(5.5px);
+    padding-top     : 53px;
+}
+
+.purple-ring-left {
+    position : absolute;
+    right    : -76px;
+    top      : -85px;
+}
+
+.purple-ring-right {
+    position : absolute;
+    right    : -76px;
+    top      : -104px;
+}
+
+.discount {
+    position       : absolute;
+    font-family    : 'Russo One';
+    font-weight    : 400;
+    font-style     : italic;
+    letter-spacing : 0.007em;
+}
+
+.monthly-discount { 
+    font-size   : 50px;
+    line-height : 104px; 
+    right       : 70px;
+    top         : 76px;
+}
+
+.yearly-eighteen {
+    font-size: 39px;
+    line-height: 52px;
+    right:80px;
+    top:94px;
+}
+
+.yearly-fifty {
+    font-size   : 50px;
+    line-height : 104px; 
+    right       : 70px;
+    top         : 115px;
+}
+
+.previous-price {
+    position       : absolute;
+    font-size      : 31px;
+    line-height    : 58px;
+    letter-spacing : 0.007em;
+    left           : 73px;
+    top            : 134px;
+}
+
+.previous-price::before {
+    content          : " ";
+    width            : 74.55px;
+    height           : 3px;
+    background-color : rgba(243, 84, 180, 1);
+    position         : absolute;
+    top              : 30px;
+    transform        : matrix(0 .96, -0.27, -0.27, -0.96, 0, 0);
+}
+
+.box-left {
+    margin-right : 102px;
+}
+
+.box-right {
+    margin-left : 102px;
+}
+
+.box-heading {
+    font-size      : 39px;
+    text-align     : center;
+    letter-spacing : 0.007em;
+}
+
+.price-container {
+    margin-bottom : 23px;
+    text-align    : center;
+}
+
+.price {
+    font-size   : 80px;
+    font-weight : 700;
+    padding-top : 30px;
+}
+
+.per-user {
+    font-size      : 28px;
+    letter-spacing : 0.007em;
+}
+
+.box-list {
+    margin-left : 166.18px;
+}
+
+.box-list-item {
+    display       : flex;
+    align-items   : center;
+    margin-bottom : -10px;
+}
+
+.box-list-item span {
+    display        : block;
+    font-size      : 20px;
+    letter-spacing : 0.007em;
+    line-height    : 24px;
+    margin-left    : 17px;
+}
+
+.box-list-item div {
+    display : inline-block;
+}
+
+.btn-box {
+    display    : block;
+    margin     : auto;
+    margin-top : 49px; 
+}
+
+.for-six-month {
+    position : absolute;
+    right    : 32.35px;
+    bottom   : 28px;
+}
+
+.awards-img-container {
+    width       : 1541px;
+    height      : 269px;
+    margin-top  : 200px;
+    margin-left : -120px;
+}
+
+.sectiion__features {
+    margin-top : 180px;
+    color      :#FFFFFF;
+}
+
+.features-desc-container {
+    margin-bottom : 80px;
+    text-align    : center;
+}
+
+.text-small{
+    font-size      : 39px;
+    line-height    : 52px;
+    letter-spacing : 0.007em;
+}
+
+.text-small-white {
+    color : #FFFFFF
+}
+
+.text-small-yellow {
+    color      : rgba(255, 199, 89, 1);
+    font-style : italic;
+}
+    
+.box-features {
+    width         : 1322px;
+    height        : 813px;
+    background    : linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    border-radius : 26px;
+}
+
+.features-list {
+    display         : flex;
+    justify-content : space-around;
+    padding-top     : 82px;
+}
+
+.features-list-item  {
+    height          : 130px;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-between;
+    text-align      : center;
+    
+}
+
+.f-list-item-desc {
+    font-weight    : 600;
+    font-size      : 20px;
+    line-height    : 25px;
+    letter-spacing : 0.007em;
+}
+
+.f-list-item-icon {
+    padding-top : 20px;
+}
+
+.line {
+    position   : relative;
+    width      : 1152px;
+    margin     : auto;
+    margin-top : 37px;
+    border     : 1px solid #E7E9F2;  
+    background : #E7E9F2;
+}
+
+.line-short {
+    position      : absolute;
+    width         : 110px;
+    height        : 6px;
+    top           : -3px;
+    left          : -1px;
+    background    : #FFFFFF;
+    border-radius : 6px;
+}
+
+.track-time-info-container {
+    display     : inline-block;
+    width       : 660px;
+    margin-top  : 76px;
+    margin-left : 54px;
+}
+
+.track-time-info {
+    margin-bottom : 30px;
+}
+
+.track-time-list {
+    margin-bottom : 41px;
+}
+
+.track-time-list-item {
+    margin-bottom : 16px;
+}
+
+.track-time-list-item span {
+    margin-left    : 18px;
+    font-size      : 20px;
+    letter-spacing : 0.007em;
+    line-height    : 24px;
+}
+
+.screenshot-container {
+    display     : inline-block;
+    margin-left : 23px;
+}
+
+.footer {
+    margin-top : 180px;
+}
+.footer p {
+    margin-bottom  : 57px;
+    color          : #FFFFFF;
+    text-align     : center;
+    font-weight    : 600;
+    font-size      : 31px;
+    line-height    : 42px;
+    letter-spacing : 0.007em;
+}
+
+.logo-list-container {
+    width  : 1196px;
+    margin : auto;
+}
+
+.logo-list {
+    display         : flex;
+    justify-content : center;
+    flex-wrap       : wrap;
+    gap             : 5px;
+    row-gap         : 30px;
+}
+
+.footer-box {
+    position   : relative;
+    width      : 1920px;
+    height     : 431px;
+    margin-top : 185px;
+    background : linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+}
+
+.footer-button-container {
+    display     : inline-block;
+    margin-left : 300px;
+    margin-top  : 119px;
+}
+
+.footer-button-container p {
+    font-weight    : 600;
+    font-size      : 49px;
+    line-height    : 62px;
+    letter-spacing : 0.007em;
+}
+
+.footer-screenshot {
+    display  : inline-block;
+    position : absolute;
+    right    : 0;
+}
+
+
+
+
+
+
+
